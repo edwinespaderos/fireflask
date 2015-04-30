@@ -31,7 +31,7 @@ body {
  }
 
 .hero {
-  background: black;
+  background: radial-gradient(farthest-side circle at bottom center, rgba(42, 42, 42, 0.73) -46%, rgba(0, 0, 0, 1) 125%);
   height: 77vh;
   bottom-border: 300px solid blue;
 
@@ -63,21 +63,22 @@ body {
 
   .tag {
     position: absolute;
-    top: 29%;
+    top: 31%;
     left: 12%;
-    
+
   }
   .tag-text {
     margin: 0;
     padding : 0;
+    line-height: 90px;
   }
 
   .block {
-    height: 87px;
+    height: 81px;
     width: 223px;
     background: rgba(193, 39, 45, 0.89);
     position: absolute;
-    top: 135px;
+    top: 97px;
     left: 290px;
   }
 

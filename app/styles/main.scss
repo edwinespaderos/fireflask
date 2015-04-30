@@ -1,0 +1,77 @@
+// bower:scss
+// endbower
+
+body {
+    /* background: #fafafa; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+ h1 {
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 50px;
+ }
+
+.hero {
+  background: black;
+  height: 70vh;
+
+  .line {
+    margin-top: 6%;
+    margin-left: 14%;
+    height: 1px;
+    width: 80%;
+    background: #fff;
+    position: absolute;
+    z-index: 200;
+  }
+
+  .hero-img {
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    z-index: 100;
+  }
+
+  .logo {
+    position: absolute;
+    left: 2%;
+    top: 1%;
+    width: 150px;
+  }
+
+  .tag {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+
+
+  }
+
+}
+
+.begin {
+  background: rgba(193, 39, 45, 0.89);
+  height: 80vh;
+  width: 100%;
+
+  .begin-tag {
+    position: absolute;
+    margin-top: 5%;
+    left: 25%;
+  }
+
+  .icon {
+    width: 300px;
+    margin-top: 200px;
+
+  }
+
+  .fire {
+    margin-left: 10%;
+  }
+
+}
